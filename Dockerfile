@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Vite serverni tashqi portga chiqarish (agar `vite.config.ts` da port 5173 bo‘lsa)
-EXPOSE 5174
+EXPOSE 5173
 
 # Loyihani ishga tushurish
 CMD ["npm", "run", "dev"]
